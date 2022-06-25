@@ -1,0 +1,599 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Talim{
+    background-image: url(./images/rasm1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+.talim-text1{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.talim-main{
+    display: flex;
+    justify-content: center;
+}
+.talim-icon{
+    display: grid;
+    padding-right: 168px;
+}
+.talim-main-ong{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    padding-left: 118px;
+    padding-top: 400px;
+}
+.talim-main-ong h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.talim-icons{
+    width: 42px;
+    padding-bottom: 21px;
+    cursor: pointer;
+}
+.talim-text1{
+    font-family: 'Play', sans-serif;
+}
+.talim-text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+}
+.talim-main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.talim-main2-images p{
+    color: #fff;
+    font-family: Play;
+    padding-top: 20px;
+}
+.talim-main2-images{
+    padding: 60px;
+    align-items: center;
+    text-align: center;
+}
+.talim-main2-top{
+    display: flex;
+}
+.talim-main2-buttom{
+    display: flex;
+}
+.talim-text3 h1{ 
+    padding: 45px;
+}
+.talim-text3 p{ 
+    font-size: 24px;
+}
+.talim-text3{
+    text-align: center;
+    color: #fff;
+    font-family: Play;
+    padding-bottom: 100px;
+}
+.itakademiya{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    padding-bottom: 200px;
+    padding-top: 71px;
+}
+.itakademiya-chap{
+    display: block;
+}
+.itakademiya-blocks{
+    display: flex;
+    background-color: #389A65;
+    border-radius: 20px;
+    margin: 75px 50px;
+    padding: 10px;
+    width: 553px;
+    height: 223px;
+    align-items: center;
+    justify-content: center;
+}
+.block-image{
+    position: relative;
+}
+
+.block-text{
+    font-family: Play;
+}
+.block-text p{
+    font-family: Play;
+    line-height: 25px;
+}
+.block-text button{
+    font-family: Play;
+    margin-top: 10px;
+    background: none;
+    border-radius: 30px;
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
+.itakademiya-blocks1{
+    padding-left: 30px;
+}
+.itakademiya-blocks2{
+    background-color: #26AAD4;
+}
+.itakademiya-blocks3{
+    background-color: #CBA315;
+}
+.itakademiya-blocks4{
+    background-color: #9417C0;
+}
+.itakademiya-blocks5{
+    background-color: #315ED0;
+}
+@media (max-width:400px) {
+    
+}
+@media (max-width:750px) and (min-width:300px){
+    .itakademiya{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width:1440px) and (min-width:1350px){
+    .talim-main-img{
+        width: 900px;
+        margin-left: -50px;
+    }
+    .talim-main-ong{
+        padding-top: 350px;
+    }
+}
+@media (max-width:1350px) and (min-width:1084px){
+    .talim-main-img{
+        width: 800px;
+        margin-right: -100px;
+    }
+    .talim-main-chap{
+        margin-right: -100px;
+    }
+    .talim-main-ong{
+        padding-top: 300px;
+    }
+    .itakademiya-blocks{
+        margin: 30px;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width:1245px) and (min-width:1084px){
+    .talim-main-img{
+        width: 700px;
+        margin-right: -100px;
+    }
+    .talim-main-chap{
+        margin-right: -100px;
+    }
+    .talim-main-ong{
+        padding-top: 260px;
+    }
+    .itakademiya{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .talim-main2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .talim-main2-images{
+        padding: 20px;
+    }
+}
+@media (max-width:1084px) and (min-width:900px){
+    .talim-main-img{
+        width: 600px;
+        margin-right: -100px;
+    }
+    .talim-main-chap{
+        margin-right: -130px;
+    }
+    .talim-main-ong{
+        padding-top: 220px;
+    }
+    .itakademiya{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .talim-main2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .talim-main2-images{
+        padding: 20px;
+    }
+    .talim-main2-images img{
+        width: 200px;
+    }
+    
+    
+}
+@media (max-width:900px) and (min-width:750px){
+    .talim-main-img{
+        width: 600px;
+        margin-right: -100px;
+    }
+    .talim-main-chap{
+        margin-right: -100px;
+    }
+    .talim-main-ong{
+        padding-top: 250px;
+    }
+    .itakademiya{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .talim-main2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    /* .talim-main2-top{
+        display: block;
+        
+    }
+    .talim-main2-buttom{
+        display: block;
+    } */
+    
+    .talim-main2-images{
+        padding: 20px;
+    }
+    .talim-main2-images img{
+        width: 200px;
+    }
+    .talim-icon{
+        display: none;
+    }
+    .talim-main-ong{
+        display: none;
+    }
+    .itakademiya-blocks{
+        margin: 0px;
+        margin-bottom: 45px;
+    }
+}
+@media (max-width:750px) and (min-width:600px){
+    .talim-main-img{
+        width: 480px;
+        margin-right: -100px;
+    }
+    .talim-main-chap{
+        margin-right: -100px;
+    }
+    .talim-main-ong{
+        padding-top: 250px;
+    }
+    .itakademiya{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .talim-main2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .talim-main2-top{
+        display: block;
+        
+    }
+    .talim-main2-buttom{
+        display: block;
+    }
+    .talim-main2-images{
+        padding: 20px;
+    }
+    .talim-main2-images img{
+        width: 240px;
+    }
+    .talim-icon{
+        display: none;
+    }
+    .talim-main-ong{
+        display: none;
+    }
+    .itakademiya-blocks{
+        margin: 0px;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width:630px) and (min-width:460px){
+    .talim-main-img{
+        width: 400px;
+    }
+    .itakademiya{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .talim-main2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .talim-main2-top{
+        display: block;
+        
+    }
+    .talim-main2-buttom{
+        display: block;
+    }
+    .talim-main2-images{
+        padding: 20px;
+    }
+    .talim-main2-images img{
+        width: 180px;
+    }
+    .talim-icon{
+        display: none;
+    }
+    .talim-main-ong{
+        display: none;
+    }
+    .itakademiya-blocks{
+        max-width: 380px;
+        height: 180px;
+    }
+    .block-image img{
+        width: 200px;
+    }
+    .block-text{
+        padding-left: 10px;
+    }
+    .block-text h1{
+        font-size: 18px;
+        padding: 0px;
+    }
+    .block-text p{
+        font-family: Play;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .itakademiya-blocks1{
+        padding-left: 5px;
+    }
+    .talim-text1{
+        font-size: 20px;
+    }
+    .talim-text3 h1{
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+    .talim-text3 p{
+        font-size: 18px;
+    }
+    .talim-main2-images p{
+        font-size: 16px;
+    }
+    .itakademiya-blocks{
+        margin: 0px;
+        margin-bottom: 40px;
+    }
+    
+}
+@media (max-width:460px) and (min-width:300px){
+    .talim-main-img{
+        width: 280px;
+    }
+    .itakademiya{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .talim-main2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .talim-icon{
+        display: none;
+    }
+    .talim-main-ong{
+        display: none;
+    }
+    .itakademiya-blocks{
+        max-width: 290px;
+        height: 150px;
+    }
+    .block-image img{
+        width: 140px;
+    }
+    .block-text{
+        padding-left: 10px;
+    }
+    .block-text h1{
+        font-size: 16px;
+        padding: 0px;
+    }
+    .block-text p{
+        font-family: Play;
+        line-height: 14px;
+        font-size: 13px;
+         
+    }
+    .block-text button{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .itakademiya-blocks1{
+        padding-left: 5px;
+    }
+    .itakademiya-ong{
+        top: 100px;
+    }
+    .talim-text3 h1{
+        font-size: 25px;
+        padding: 5px;
+    }
+    .talim-text3 p{
+        font-size: 15px;
+        padding: 0px;
+    }
+    .talim-text3{
+        margin-top: 40px;
+        margin-bottom: -100px;
+    }
+    .talim-main2-top{
+        display: block;
+        
+    }
+    .talim-main2-buttom{
+        display: block;
+    }
+    .talim-main2-images{
+        padding: 20px;
+    }
+    .talim-main2-images img{
+        width: 150px;
+    }
+    .talim-text1{
+        font-size: 15px;
+    }
+    .talim-text3 h1{
+        font-size: 16px;
+    }
+    .talim-text3 p{
+        font-size: 13px;
+    }
+    .talim-main2-images p{
+        font-size: 15px;
+        padding: 3px;
+    }
+    .itakademiya-blocks{
+        margin: 0px;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width:320px) and (min-width:200px){
+    .talim-main-img{
+        width: 150px;
+    }
+    .itakademiya{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .talim-main2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .talim-icon{
+        display: none;
+    }
+    .talim-main-ong{
+        display: none;
+    }
+    .itakademiya-blocks{
+        max-width: 160px;
+        height: 100px;
+    }
+    .block-image img{
+        width: 70px;
+    }
+    .block-text{
+        padding-left: 3px;
+    }
+    .block-text h1{
+        font-size: 11px;
+        padding: 0px;
+    }
+    .block-text p{
+        font-size: 7px;
+        padding-top: 3px;
+        letter-spacing: 0.5px;
+        line-height: 7px;
+    }
+    .block-text button{
+        font-size: 5px;
+        padding: 3px;
+    }
+    .itakademiya-blocks1{
+        padding-left: 5px;
+    }
+    .itakademiya-ong{
+        top: 100px;
+    }
+    .talim-text3 h1{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .talim-text3 p{
+        font-size: 15px;
+        padding: 0px;
+    }
+    .talim-text3{
+        margin-top: 40px;
+        margin-bottom: -100px;
+    }
+    .talim-main2-top{
+        display: block;
+        
+    }
+    .talim-main2-buttom{
+        display: block;
+    }
+    .talim-main2-images{
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    .talim-main2-images img{
+        width: 100px;
+    }
+    .talim-text1{
+        font-size: 10px;
+        padding: 10px;
+    }
+    .talim-text3 h1{
+        font-size: 16px;
+    }
+    .talim-text3 p{
+        font-size: 13px;
+    }
+    .talim-main2-images p{
+        font-size: 11px;
+        padding: 3px;
+    }
+    .itakademiya-blocks{
+        margin: 0px;
+        margin-bottom: 25px;
+    }
+}

@@ -1,0 +1,174 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.Grid1 {
+    display: flex;
+    align-items: center;
+
+}
+
+@media (max-width:600px) {
+    .YilrasmMEdi {
+        /* transform: scale(0.6); */
+        width: 100%;
+        padding-top: 150px;
+    }
+}
+
+
+@media (max-width:470px) {
+    .RasmYil {
+        /* transform: scale(0.5); */
+        /* margin-left: -50px; */
+    }
+}
+
+@media (max-width:600px) {
+    .container {
+        width: 100%;
+        height: auto;
+        padding: 0 2rem;
+        
+    }
+    
+   
+    .RasmYil {
+        /* width: 100%!important; */
+        height: 80vh;
+    }
+   
+    
+    .Matn {
+        width:100% !important;
+        text-align: center;
+        height: auto !important;
+    }
+    .Matn h3 {
+        height: 60px !important;
+        font-size: 25px !important;
+    }
+    .Matn p {
+        font-size: 14px !important;
+    }
+}
+
+
+
+
+.Matn {
+    height: 400px;
+    width: 70%;
+}
+
+
+.Matn h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    height: 50px;
+}
+
+.Matn p {
+    font-size: 20px;
+    line-height: 33px;
+    color: white;
+}
+
+.Yil1 {
+    color:white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 318px;
+    top:-585px;
+}
+.Yil1 span {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.Yil1 p {
+    font-size: 30px;
+    font-weight: 700;
+
+    
+}
+
+.Yil2 {
+    color:white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 63px;
+    top:-490px;
+}
+.Yil2 span {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.Yil2 p {
+    font-size: 30px;
+    font-weight: 700;
+
+    
+}
+
+.Yil3 {
+    color:white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 330px;
+    top:-370px;
+}
+
+
+.Yil3 span {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.Yil3 p {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Yil4 {
+    color:white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left:75px;
+    top:-265px;
+}
+
+.Yil4 span {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.Yil4 p {
+    font-size: 30px;
+    font-weight: 700;
+}

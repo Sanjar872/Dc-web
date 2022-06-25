@@ -1,0 +1,16 @@
+
+  .mySwiper{
+    width: 100%;
+    height: 400px;
+  }
+
+.swiperSlide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide .my-slider{
+  width: 300px !important;
+}
+

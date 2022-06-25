@@ -1,0 +1,91 @@
+.parent {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    
+    
+    }
+    /* h1{
+      padding: 10px;
+      width: 100%;
+      margin-top: 15px;
+      font-size: 22px;
+      border: 1px solid red;
+    } */
+    
+    .div2 {
+      width: 30%;
+      gap: 50px;
+      
+    }
+    
+    
+    .div1 {
+      width: 35%;
+      height: 100px;
+      align-items: center;
+      display: flex;
+      color: #fff;
+      
+    }
+  
+  @media screen and (max-width:703px){
+    .div1 {
+      font-size: 10px;
+    }
+  }
+  
+  
+  @media screen and (max-width:563px){
+      .div1{
+          width: 100%;
+      }
+  
+      .div2{
+        width:100%;
+  
+      }
+   
+  }
+  
+  .Pasqism {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Pasqism:hover{
+      cursor: pointer;
+      transform:scale(1.2);
+      transition:1s;
+  }
+  
+  .Parent:hover {
+    transform: scaleX(0.5);
+  }
+.Pasqism img {
+  width: 100%;
+  height: 50px;
+}
+  .Pasqism h1 {
+    color: white;
+  }
+
+  @media (max-width:600px) {
+    .Pasqism {
+      display: flex;
+      flex-direction: column;
+      text-align: center ;
+      gap: 10px ;
+      width: 100%;
+    }
+
+    .Pasqism h1 {
+      font-size: 20px;
+    }
+  }
