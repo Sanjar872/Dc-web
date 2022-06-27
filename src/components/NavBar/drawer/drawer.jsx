@@ -72,11 +72,6 @@ const Navigating = (item) => {
               <ListItemText primary={'Startaplar'} />
             </ListItemButton>
         </ListItem>
-        <ListItem onClick={()=>{Navigating('/loyihalar')}}  disablePadding>
-            <ListItemButton>
-              <ListItemText primary={'Loyihalar'} />
-            </ListItemButton>
-        </ListItem>
         <ListItem onClick={()=>{Navigating('/raqamlashtirish')}}  disablePadding>
             <ListItemButton>
               <ListItemText primary={'Raqamlashtirish'} />

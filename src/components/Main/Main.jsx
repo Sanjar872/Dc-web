@@ -126,12 +126,6 @@ const Main = () => {
           </EnteryTel>
         </EnteryVideo> 
       </Entery>
-      git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-
-
-  git config --global user.email "akmaljonazimjonov@gmail.com"
-   git config --global user.name "AkmaljonCoder"
 
       <ModalWr ref={mVideo}>
           <ModalClose onClick={closeSlider}/>
