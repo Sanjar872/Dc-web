@@ -1,33 +1,15 @@
 import {React,useState,useEffect,useRef} from 'react'
 import axios from 'axios'
 
-import VidSlider from './vidSlider/Slider'
 import Sliders from './slider/Slider'
-import { Aloqa, AloqaForm, Button, ButtonDiv, BlurTitle, ChartTexts1, ChartTexts2, ChartTexts3, ChartTexts4, Entery, EnteryTel, EnteryTexts, EnteryTitle, EnteryVideo, EnteryVidIc, FormCard, FormIcon, FormInputs, FormTextDiv, FormTexts, InfoCard, InfoChart, InfoImg, Infos, InfoTexts, InfoWrapper, MainWrapper, MedFont, MiniDiv, Paragraph, PrimaryInp, SliderWr, TCardIc, TCardWr, TechCard, TechMain, TechPark, TelIc, TelText, Title, ModalWr, ModalVid, ModalClose } from './style'
+import { Aloqa, AloqaForm, Button, ButtonDiv, BlurTitle, Entery, EnteryTel, EnteryTexts, EnteryTitle, EnteryVideo, EnteryVidIc, FormCard, FormIcon, FormInputs, FormTextDiv, FormTexts, InfoCard, InfoChart, InfoImg, Infos, InfoTexts, InfoWrapper, MainWrapper, MedFont, MiniDiv, Paragraph, PrimaryInp, SliderWr, TCardIc, TCardWr, TechCard, TechMain, TechPark, TelIc, TelText, Title, ModalWr, ModalClose, ModalVideo } from './style'
 
 // Asosiy section icons
 
 import VideoIc from './assets/video.svg'
 import TelIcon from './assets/telephone.svg'
-import CloseIcon from '@mui/icons-material/Close';
 
-// Tech icons
-
-import Add from './assets/Icons1/add.svg'
-import Bag from './assets/Icons1/bag.svg'
-import Comp from './assets/Icons1/comp.svg'
-import Person from './assets/Icons1/person.svg'
-import Radio from './assets/Icons1/radio.svg'
-import Rocket from './assets/Icons1/rocket.svg'
-import Vector from './assets/Icons1/vector.svg'
-
-// Info images
-
-import CompImg from './assets/Images/comp.png'
-import RocketImg from './assets/Images/rocket.png'
-import GameImg from './assets/Images/joystick.png'
-import DigitalImg from './assets/Images/digital.png'
-import BusinessImg from './assets/Images/business.png'
+import VideoSrc from './assets/videos/sliderVid1.mp4'
 
 // For slider
 
@@ -146,8 +128,8 @@ const Main = () => {
       </Entery>
 
       <ModalWr ref={mVideo}>
-          <ModalClose onClick={closeSlider} src={<CloseIcon/>} />
-          <VidSlider/>
+          <ModalClose onClick={closeSlider}/>
+          <ModalVideo  controls loop src={VideoSrc} ></ModalVideo>
       </ModalWr>
 
       {/* TechnoPark section */}

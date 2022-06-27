@@ -2,6 +2,8 @@ import styled from 'styled-components'
 import BackgroundImg from './assets/background.png'
 import ExcludeImg from './assets/Images/Exclude.png'
 
+import CloseIcon from '@mui/icons-material/Close';
+
 export const MainWrapper = styled.div` // Main div
     width: 100%;
     // height: 100vh;
@@ -125,7 +127,7 @@ export const BlurTitle = styled.h1`
 
 export const Entery = styled.div`
     width: 100%;
-    height: 716px;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -209,19 +211,24 @@ export const ModalWr = styled.div` // Modal for video
     position: fixed;
     top: 0;
     z-index: 999;
-    border: 1px solid red;
     transition: all ease 0.5s;
 `
 
-export const ModalClose = styled.img` // MOdal close icon
-    width: 45px;
-    height: 45px;
-    object-fit: contain;
-    color: white;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    cursor: pointer;
+export const ModalVideo = styled.video`
+    width: 80%;
+    height: auto;
+
+`
+
+export const ModalClose = styled(CloseIcon)` // MOdal close icon
+    width: 45px !important;
+    height: 45px !important;
+    object-fit: contain !important;
+    color: white !important;
+    position: absolute !important;
+    right: 20px !important;
+    top: 20px !important;
+    cursor: pointer !important;
 
 `
 
