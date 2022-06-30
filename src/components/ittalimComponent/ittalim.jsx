@@ -17,11 +17,17 @@ import Design from './images/Design.png'
 import Coding from './images/Coding.png'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
  const APItalim = "http://167.99.214.82/get-studydirections/"
  const talimApi = "http://167.99.214.82/get-itacademy/"
  
 function Talim() {
+    useEffect(()=>{
+    Aos.init();
+    Aos.refresh();
+  })
      
   const [data, setData] = useState({})
   const [data1, setData1] = useState({})
@@ -87,7 +93,6 @@ function Talim() {
   })
 
 
-  
 
 
 
@@ -98,10 +103,10 @@ function Talim() {
         <div className="talim-main">
             <div className="talim-main-chap">
                 <div className="talim-icon">
-                    <img src={Icon1} alt="" className="talim-icons" />
+                    {/* <img src={Icon1} alt="" className="talim-icons" />
                     <img src={Icon2} alt="" className="talim-icons" />
                     <img src={Icon3} alt="" className="talim-icons" />
-                    <img src={Icon4} alt="" className="talim-icons" />
+                    <img src={Icon4} alt="" className="talim-icons" /> */}
                 </div>
             </div>
             <div className="talim-main-orta">
@@ -117,25 +122,25 @@ function Talim() {
 
         <div className="talim-main2">
           <div className="talim-main2-top">
-                 <div className="talim-main2-images">
+                 <div className="talim-main2-images" data-aos="zoom-out">
                        <img src={Rasm3} alt="" />
                        <p>{data5.text_uz}</p>
                  </div>
-                 <div className="talim-main2-images">
+                 <div className="talim-main2-images" data-aos="zoom-out">
                         <img src={Rasm4} alt="" />
                         <p>{data6.text_uz}</p>
                  </div>
           </div>
           <div className="talim-main2-buttom">
-                <div className="talim-main2-images">
+                <div className="talim-main2-images" data-aos="zoom-out">
                 <img src={Rasm5} alt="" />
                 <p>{data7.text_uz}</p>
                 </div>
-              <div className="talim-main2-images">
+              <div className="talim-main2-images" data-aos="zoom-out">
               <img src={Rasm6} alt="" />
               <p>{data8.text_uz}</p>
                  </div>
-                  <div className="talim-main2-images">
+                  <div className="talim-main2-images" data-aos="zoom-out">
                   <img src={Rasm7} alt="" />
                   <p>{data9.text_uz}</p>
                 </div>
@@ -143,14 +148,14 @@ function Talim() {
         </div>
 
         <div className="talim-text3">
-          <h1>iT AKADEMIYA</h1>
-          <p>Bu yerda IT taʼlimning barcha <br /> yoʻnalishlari keltirilgan</p>
+          <h1 data-aos="zoom-in">iT AKADEMIYA</h1>
+          <p data-aos="zoom-in">Bu yerda IT taʼlimning barcha <br /> yoʻnalishlari keltirilgan</p>
         </div>
 
         <div className="itakademiya">
           <div className="itakademiya-chap">
 
-            <div className="itakademiya-blocks itakademiya-blocks1">
+            <div className="itakademiya-blocks itakademiya-blocks1" data-aos="fade-up">
                <div className="block-text">
                    <h1>{data.name_uz}</h1>
                    <p> {data.texnologies}</p>
@@ -163,7 +168,7 @@ function Talim() {
                  <img src={Html} alt="" />
                </div>
             </div>
-            <div className="itakademiya-blocks itakademiya-blocks2">
+            <div className="itakademiya-blocks itakademiya-blocks2" data-aos="fade-up">
                <div className="block-text">
                <h1>{data1.name_uz}</h1>
                    <p> {data1.texnologies}</p>
@@ -175,7 +180,7 @@ function Talim() {
                  <img src={Robot} alt="" />
                </div>
             </div>
-            <div className="itakademiya-blocks itakademiya-blocks3">
+            <div className="itakademiya-blocks itakademiya-blocks3" data-aos="fade-up"> 
                <div className="block-text">
                <h1>{data2.name_uz}</h1>
                    <p> {data2.texnologies}</p>
@@ -191,7 +196,7 @@ function Talim() {
             
           </div>
           <div className="itakademiya-ong">
-          <div className="itakademiya-blocks itakademiya-blocks4">
+          <div className="itakademiya-blocks itakademiya-blocks4" data-aos="fade-up">
                <div className="block-text">
                <h1>{data3.name_uz}</h1>
                    <p> {data3.texnologies}</p>
@@ -203,7 +208,7 @@ function Talim() {
                  <img src={Design} alt="" />
                </div>
             </div>
-            <div className="itakademiya-blocks itakademiya-blocks5">
+            <div className="itakademiya-blocks itakademiya-blocks5" data-aos="fade-up">
                <div className="block-text">
                <h1>{data4.name_uz}</h1>
                    <p> {data4.texnologies}</p>
